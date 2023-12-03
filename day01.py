@@ -7,7 +7,7 @@ See https://adventofcode.com/2023/day/1
 import re
 
 
-def solve(input_file: str, part: int = 1) -> int():
+def solve(input_file: str, part: int = 1) -> int:
     """Solve day 01."""
     allow_strs = part == 2
     with open(input_file) as f:
